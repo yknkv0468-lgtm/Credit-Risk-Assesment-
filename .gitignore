@@ -1,0 +1,4 @@
+.venv/
+credit_risk_dataset (1).csv
+*.ipynb
+__pycache__/
