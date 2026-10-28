@@ -40,14 +40,17 @@ Data Processing: pandas 2.2.3, NumPy 2.2.3, joblib 1.4.2
 
 📂 Project Structure
 
+## 📂 Project Structure
+```text
 .
-├── credit.py                # Main Streamlit app and UI frontend
-├── train_model.py           # Data cleaning, training, and threshold optimization
-├── credit_risk_model.pkl    # Serialized preprocessing & calibrated XGBoost model
+├── credit.py                # Main Streamlit application and UI frontend
+├── train_model.py           # Data ETL, model training, and threshold optimization
+├── credit_risk_model.pkl    # Serialized Scikit-Learn preprocessing & XGBoost pipeline
 ├── best_threshold.pkl       # Saved F1-optimal decision cutoff scalar
 ├── requirements.txt         # Pinned production dependencies
-├── runtime.txt              # Python runtime specification (3.11.11)
+├── runtime.txt              # Python runtime version for cloud deployment
 └── .gitignore               # Exclusions for data and virtual environments
+```
 
 
 ⚡ Run Locally
