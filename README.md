@@ -53,18 +53,18 @@ Data Processing: pandas 2.2.3, NumPy 2.2.3, joblib 1.4.2
 ```
 
 
-⚡ Run Locally
 
+
+## ⚡ Local Setup
+```bash
 git clone https://github.com/yknkv0468-lgtm/Credit-Risk-Assesment-.git
 cd Credit-Risk-Assesment-
 
-# 1. Set up virtual environment
+# Setup virtual environment
 python -m venv .venv
+.\.venv\Scripts\activate           # Windows
 
-# 2. Activate virtual environment
-.\.venv\Scripts\activate      # Windows
-# source .venv/bin/activate   # macOS / Linux
-
-# 3. Install dependencies and run
+# Install dependencies and run
 pip install -r requirements.txt
 streamlit run credit.py
+```
