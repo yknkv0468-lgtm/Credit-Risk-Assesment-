@@ -1,4 +1,4 @@
-# 🛡️ Aegis Quant: Credit Risk Terminal
+#  Credit Risk Terminal
 
 A production-grade Streamlit application that scores retail loan applicants using a tuned, monotonic-constrained XGBoost model. It evaluates default risk against an F1-optimal decision cutoff and returns an automated approve/decline verdict with real-time financial telemetry.
 
